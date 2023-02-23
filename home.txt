@@ -1,0 +1,33 @@
+@extends('layouts.main')
+@section('container')
+<div class="row">
+    <div class="col-12 mb-4">
+        <img src="{{ asset('img/pengaduan1.png') }}" class="d-block rounded-3" height="600" width="100%"
+                  alt="...">
+    </div>
+    <div class="col-12 mb-4">
+            <Article>
+                <h1 class="fw-bold mb-3 text-center">Layanan Pengaduan Siswa</h1>
+                <p class="text-center mb-3">Kritik atau saran guna membangun <b>SMK TELKOM JAKARTA</b> semakin 
+                    berkembang maka kami buka layanan pengaduan. adapun layanan pengaduan 
+                    bagi siswa siswi ataupun warga sekolah bisa menyampaikan ketidak puasan 
+                    melalui layanan ini dengan memasukan data kedalam form yang sudah kami sediakan.</p>
+                <p class="text-left">Petunjuk Operasional :
+                    <li>Masukkan Nis sekolah dengan benar (1506926508141921)</li> 
+                    <li>Masukkan kategori (kebersihan/keamanan/kesehatan)</li>
+                    <li>Masukkan alamat ketidakpuasan anda (taman/masjid/lapangan)</li>
+                    <li>isikan kritik dan saran anda yang ingin disampaikan.</li>
+                    <li>kritik dan saran yang tidak ada identitas yang jelas tidak akan ditindak lanjuti.</li>
+                    <li>kritik dan saran yang anda kirim akan dijamin kerahasiaan dari orang-orang yang tidak berhubungan dengan kritik dan saran anda.</li>
+                    <li>Silahkan Enter dan <i><b>di ingat nomor pengaduannya !!</b></i></li>
+            </Article>
+      
+    </div>
+    
+    <div class="col-12 text-center mb-4">
+        <a href="/aspirasi" class="btn btn-info text-light fw-bold">Mari Ajukan Aspirasi</a>
+    </div>
+
+</div>
+@endsection
+
